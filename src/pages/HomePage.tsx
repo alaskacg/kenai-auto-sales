@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Search, DollarSign, Shield, TrendingUp } from 'lucide-react'
 import TrustBadge from '../components/TrustBadge'
+import EmpireNetwork from '../components/EmpireNetwork'
 
 export default function HomePage() {
   return (
@@ -95,6 +96,10 @@ export default function HomePage() {
           </Link>
         </div>
       </div>
+
+      <section className="py-12">
+        <EmpireNetwork currentSite="kenai-auto-sales" />
+      </section>
     </div>
   )
 }
